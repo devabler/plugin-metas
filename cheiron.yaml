@@ -1,0 +1,35 @@
+apiVersion:            v3
+publisher:             devabler
+name:                  cheiron
+version:               0.0.1
+type:                  Che Editor
+displayName:           cheiron
+title:                 Devabler-Cheiron
+description:           Devabler Chairon
+icon:                  https://github.com/devabler/plugin-metas/raw/master/haken.svg
+repository:            https://github.com/devabler/plugin-metas
+category:              Editor
+firstPublicationDate:  "2020-05-14"
+latestUpdateDate:      "2020-05-14"
+spec:
+  endpoints:
+    -  name: "cheiron"
+      public: true
+      targetPort: 3000
+      attributes:
+        protocol: http
+        type: ide
+        secure: true
+        cookiesAuthEnabled: true
+        discoverable: false
+  containers:
+    - image: 854103970707.dkr.ecr.eu-central-1.amazonaws.com/devabler/cheiron:latest
+      name: cheiron
+      memoryLimit: 256M
+      memoryRequest: 128M
+      cpuLimit: 500m
+      cpuRequest: 100m
+      env: []
+      ports:
+        - exposedPort: 3000
+      mountSources: true
