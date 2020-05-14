@@ -1,16 +1,16 @@
-apiVersion:            v3
-publisher:             devabler
-name:                  cheiron
-version:               0.0.1
-type:                  Che Editor
-displayName:           cheiron
-title:                 Devabler-Cheiron
-description:           Devabler Chairon
-icon:                  https://github.com/devabler/plugin-metas/raw/master/haken.svg
-repository:            https://github.com/devabler/plugin-metas
-category:              Editor
-firstPublicationDate:  "2020-05-14"
-latestUpdateDate:      "2020-05-14"
+apiVersion: v3
+publisher: devabler
+name: cheiron
+version: 0.0.1
+type: Che Editor
+displayName: cheiron
+title: Devabler-Cheiron
+description: Devabler Chairon
+icon: https://github.com/devabler/plugin-metas/raw/master/haken.svg
+repository: https://github.com/devabler/plugin-metas
+category: Editor
+firstPublicationDate: "2020-05-14"
+latestUpdateDate: "2020-05-14"
 spec:
   endpoints:
     -  name: "cheiron"
