@@ -13,7 +13,7 @@ firstPublicationDate: "2020-05-14"
 latestUpdateDate: "2020-05-14"
 spec:
   endpoints:
-    -  name: "cheiron"
+    - name: "cheiron"
       public: true
       targetPort: 3000
       attributes:
