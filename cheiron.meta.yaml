@@ -23,13 +23,15 @@ spec:
         cookiesAuthEnabled: true
         discoverable: false
   containers:
-    - image: 854103970707.dkr.ecr.eu-central-1.amazonaws.com/devabler/cheiron:latest
+    - image: "854103970707.dkr.ecr.eu-central-1.amazonaws.com/devabler/cheiron:latest"
       name: cheiron
       memoryLimit: 256M
       memoryRequest: 128M
       cpuLimit: 500m
       cpuRequest: 100m
-      env: []
+      env:
+         - name: THEIA_PLUGINS
+           value: local-dir:///plugins
       ports:
         - exposedPort: 3000
       mountSources: true
