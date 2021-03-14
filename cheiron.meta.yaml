@@ -5,7 +5,7 @@ version: 0.0.1
 type: Che Editor
 displayName: cheiron
 title: Devabler-Cheiron
-description: Devabler Chairon
+description: Devabler Cheiron
 icon: https://github.com/devabler/plugin-metas/raw/master/haken.svg
 repository: https://github.com/devabler/plugin-metas
 category: Editor
